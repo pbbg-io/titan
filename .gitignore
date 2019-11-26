@@ -12,3 +12,7 @@ npm-debug.log
 yarn-error.log
 /packages
 .idea
+public/css
+public/fonts
+public/js
+extensions
