@@ -1,10 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "pbbg-io/titan-demo",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Titan Game Engine.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "pbbg",
+        "game engine"
     ],
     "license": "MIT",
     "require": {
