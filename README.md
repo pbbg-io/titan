@@ -10,6 +10,8 @@
 ```bash
 composer create-project pbbg-io/titan-demo -s dev
 cd titan-demo
+php artisan titan:install
+php artisan titan:resources
 yarn && yarn run production
 ```
 
@@ -18,6 +20,8 @@ yarn && yarn run production
 git clone https://github.com/pbbg-io/titan-demo
 cd titan-demo
 composer install
+cp .env.example .env
+php artisan key:generate
 php artisan titan:install
 php artisan titan:resources
 yarn
