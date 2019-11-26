@@ -5,16 +5,29 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/pbbg-io/titan-framework.svg?style=flat-square)](https://packagist.org/packages/pbbg-io/titan-framework)
 
 ## Install
+
+### Composer Project
+```bash
+composer create-project pbbg-io/titan-demo -s dev
+cd titan-demo
+yarn && yarn run production
+```
+
+### Manually
 ```bash
 git clone https://github.com/pbbg-io/titan-demo
 cd titan-demo
 composer install
 php artisan titan:install
 php artisan titan:resources
+yarn
 yarn run production
 ```
 
-And follow the instructions
+Then you can serve it with artisan
+```bash
+php artisan serve
+```
 
 ## Usage
 Write a few lines about the usage of this package.
