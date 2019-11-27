@@ -19,5 +19,4 @@ extensions
 composer.lock
 resources/sass
 resources/js
-resources/lang
 public/mix-manifest.json
