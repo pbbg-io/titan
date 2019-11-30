@@ -1,12 +1,22 @@
-# Titan Demo
+# Titan [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md) [![Travis](https://img.shields.io/travis/pbbg-io/titan-framework.svg?style=flat-square)]() [![Total Downloads](https://img.shields.io/packagist/dt/pbbg-io/titan-framework.svg?style=flat-square)](https://packagist.org/packages/pbbg-io/titan-framework)
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/pbbg-io/titan-framework.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/pbbg-io/titan-framework.svg?style=flat-square)](https://packagist.org/packages/pbbg-io/titan-framework)
+Titan is a framework for building a text based game such as Bootleggers, Torn, Barafranca. Think of it as a starting point for your game. By default we include
+
+- Administration Panel
+- Role/Group Management
+- User Management
+- Cronjob Management
+- Settings Management
+- Extensions
+
+You can browse our selection of extensions or just get started building something yourself. If you are wanting to have more of a base to start, you can check out our bundles which install a group of extensions at the same time, saving you some time searching for individual extensions
+
+This repository contains a base for Titan, it contains a few modifications to a base [Laravel](https://laravel.com) install along with pulling in the actual framework, if you don't fancy building things out as extensions then you can just go ahead and write it as any other Laravel application
 
 ## Install
 
 ### Composer Project
+
 ```bash
 composer create-project pbbg-io/titan-demo -s dev
 cd titan-demo
@@ -16,6 +26,7 @@ yarn && yarn run production
 ```
 
 ### Manually
+
 ```bash
 git clone https://github.com/pbbg-io/titan-demo
 cd titan-demo
@@ -29,6 +40,7 @@ yarn run production
 ```
 
 Then you can serve it with artisan
+
 ```bash
 php artisan serve
 ```
@@ -42,12 +54,6 @@ Run the tests with:
 ``` bash
 vendor/bin/phpunit
 ```
-
-## Changelog
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Contributing
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
