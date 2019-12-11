@@ -22,7 +22,7 @@ This repository contains a base for Titan, it contains a few modifications to a 
 
 ```bash
 composer create-project pbbg-io/titan -s dev
-cd titan-demo
+cd titan
 php artisan titan:install
 php artisan titan:resources
 yarn && yarn run production
@@ -32,7 +32,7 @@ yarn && yarn run production
 
 ```bash
 git clone https://github.com/pbbg-io/titan
-cd titan-demo
+cd titan
 composer install
 cp .env.example .env
 php artisan key:generate
