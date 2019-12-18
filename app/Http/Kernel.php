@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use PbbgIo\TitanFramework\Http\Middleware\CharacterLoggedIn as CharacterLoggedInAlias;
 use PbbgIo\TitanFramework\Http\Middleware\UpdateLastMove;
 
 class Kernel extends HttpKernel
@@ -68,6 +69,7 @@ class Kernel extends HttpKernel
         'role_or_permission' => \Spatie\Permission\Middlewares\RoleOrPermissionMiddleware::class,
 
         'update_last_move' => UpdateLastMove::class,
+        'character_logged_in'   =>  CharacterLoggedInAlias::class,
     ];
 
     /**
