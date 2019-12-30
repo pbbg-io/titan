@@ -15,7 +15,8 @@
         "laravel/framework": "^6.2",
         "laravel/tinker": "^1.0",
         "laravel/ui": "^1.1",
-        "pbbg-io/titan-framework": "*"
+        "pbbg-io/titan-framework": "*",
+        "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
@@ -33,6 +34,19 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        },
+
+        "merge-plugin": {
+            "include": [
+                "extensions/*/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "ignore-duplicates": false,
+            "merge-dev": true,
+            "merge-extra": false,
+            "merge-extra-deep": false,
+            "merge-scripts": false
         }
     },
     "autoload": {
