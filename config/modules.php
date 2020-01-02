@@ -102,7 +102,7 @@ return [
      */
 
     'drivers' => [
-        'local' => 'Caffeinated\Modules\Repositories\LocalRepository',
+        'local' => 'PbbgIo\Titan\Repositories\LocalRepository',
         'vendor' => 'PbbgIo\Titan\Repositories\VendorRepository',
     ],
 ];
