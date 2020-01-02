@@ -4,7 +4,7 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use PbbgIo\TitanFramework\Cronjobs;
+use PbbgIo\Titan\Cronjobs;
 
 class Kernel extends ConsoleKernel
 {

@@ -3,8 +3,8 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use PbbgIo\TitanFramework\Http\Middleware\CharacterLoggedIn as CharacterLoggedInAlias;
-use PbbgIo\TitanFramework\Http\Middleware\UpdateLastMove;
+use PbbgIo\Titan\Http\Middleware\CharacterLoggedIn as CharacterLoggedInAlias;
+use PbbgIo\Titan\Http\Middleware\UpdateLastMove;
 
 class Kernel extends HttpKernel
 {
