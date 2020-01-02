@@ -20,3 +20,4 @@ composer.lock
 resources/sass
 resources/js
 public/mix-manifest.json
+modules
