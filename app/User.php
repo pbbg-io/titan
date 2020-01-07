@@ -5,13 +5,14 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Carbon;
+use KyleMassacre\BanUser\Entities\Ban;
 use PbbgIo\Titan\Character;
 use Spatie\Permission\Traits\HasRoles;
-use KyleMassacre\BanUser\Entities\CanBanPlayable;
 
 class User extends Authenticatable
 {
-    use Notifiable, CanBanPlayable,
+    use Notifiable,
         HasRoles;
 
     /**
@@ -94,6 +95,6 @@ class User extends Authenticatable
      */
     public function getNameAttribute()
     {
-        return $this->attributes['display_name'];
+        return $this->attributes['name'];
     }
 }
