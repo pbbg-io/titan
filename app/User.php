@@ -7,10 +7,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use PbbgIo\Titan\Character;
 use Spatie\Permission\Traits\HasRoles;
+use KyleMassacre\BanUser\Entities\CanBanPlayable;
 
 class User extends Authenticatable
 {
-    use Notifiable,
+    use Notifiable, CanBanPlayable,
         HasRoles;
 
     /**
