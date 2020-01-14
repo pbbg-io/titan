@@ -44,7 +44,13 @@ class User extends Authenticatable
         return $this->hasMany(Character::class);
     }
 
-    public function getCharacterAttribute() {
-        return $this->characters->where('id', session('character_logged_in'))->first();
+    public function getAliveCharacters() {
+        return $this->characters->filter(function($char) {
+            return $char->getStat('alive');
+        });
+    }
+
+    public function character() {
+        return $this->hasOne(Character::class, 'id', 'last_character_played');
     }
 }
