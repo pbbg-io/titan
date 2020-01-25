@@ -117,6 +117,8 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
+    'min_if_not_empty' => 'Your :attribute must be :message',
+    'max_if_not_empty' => 'Your :attribute must be :message',
 
     /*
     |--------------------------------------------------------------------------
