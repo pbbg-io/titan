@@ -26,6 +26,7 @@
         "bootstrap-4-autocomplete": "^1.2.0",
         "jquery-ui": "^1.12.1",
         "select2": "^4.0.12",
-        "startbootstrap-sb-admin-2": "^4.0.7"
+        "startbootstrap-sb-admin-2": "^4.0.7",
+        "summernote": "^0.8.16"
     }
 }
