@@ -24,7 +24,7 @@
         "@ttskch/select2-bootstrap4-theme": "^1.3.2",
         "bootstrap": "^4.3.1",
         "bootstrap-4-autocomplete": "^1.2.0",
-        "jquery-ui": "^1.12.1",
+        "jquery-ui": "^1.13.0",
         "select2": "^4.0.12",
         "startbootstrap-sb-admin-2": "^4.0.7",
         "summernote": "^0.8.16"
